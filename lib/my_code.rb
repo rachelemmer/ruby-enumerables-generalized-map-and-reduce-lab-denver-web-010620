@@ -8,7 +8,7 @@ def map(array)
   new 
 end
 
-def reduce(array, starting_value=nil)
+def reduce(array, sv =nil)
   if starting_value
     sum = starting_value
     counter = 0 
@@ -18,7 +18,7 @@ def reduce(array, starting_value=nil)
   end 
   
   while counter < array.length 
-    yield(sum,array[counter])
+    yield(sum, array[counter])
     counter += 1 
   end
   sum 
