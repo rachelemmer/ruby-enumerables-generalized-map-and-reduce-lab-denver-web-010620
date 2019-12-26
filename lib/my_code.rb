@@ -8,7 +8,7 @@ def map(array)
   new 
 end
 
-def reduce(array, sv =nil)
+def reduce(array, sv=nil)
   if starting_value
     sum = starting_value
     counter = 0 
