@@ -14,4 +14,6 @@ def reduce(array, starting_value=nil)
     counter = 0 
   else 
     num 1 = array[0]
+    counter = 1 
+    
 end 
