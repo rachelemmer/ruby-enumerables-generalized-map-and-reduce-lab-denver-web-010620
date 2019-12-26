@@ -17,4 +17,5 @@ def reduce(array, starting_value=nil)
     counter = 1 
   end 
   
+  
 end 
