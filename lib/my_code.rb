@@ -13,5 +13,5 @@ def reduce(array, starting_value=nil)
     num1 = starting_value
     counter = 0 
   else 
-    num 1 = 
+    num 1 = array[0]
 end 
