@@ -18,5 +18,5 @@ def reduce(array, starting_value=nil)
   end 
   
   while counter < array.length 
-  yield(num1)
+  yield(num1,array)
 end 
